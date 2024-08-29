@@ -1,0 +1,455 @@
+/* WELCOME TO FREEDOM STYLE CSS OF NEXCANT WEBSITE */
+/* navbar starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  height: 8vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.Logo-1 {
+  margin: auto;
+}
+
+ul{
+  display: flex;
+  gap: 40px;
+}
+
+.menu {
+  margin: auto;
+}
+
+.bars {
+  display: none;
+}
+
+button {
+  padding: 10px 35px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background-color:  rgba(43, 173, 43);
+}
+/* navbar ends here */
+/* hero sec starts here */
+.hero-div {
+  height: 80vh;
+  display: flex;
+  gap: 50px;
+  background-color: rgb(241, 241, 241);
+}
+.div {
+  margin-top: 280px;
+  margin-left: 59px;
+}
+.div h1 {
+  font-size: 47px;
+  font-family: Arial, sans-serif;
+}
+.p {
+  margin-top: 10px;
+  margin-bottom: 17px;
+  font-size: large;
+  font-family: Arial, sans-serif;
+}
+
+.img {
+  margin-top: 100px;
+  margin-right: 70px;
+}
+.div div {
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: rgba(43, 173, 43);
+  color: white;
+  text-align: center;
+  align-content: center;
+  border-radius: 5px;
+}
+/* hero sec ends here */
+/* clients page begins here */
+.client {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 25px;
+}
+.client p {
+  font-size: medium;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.logo {
+  display: flex;
+  text-wrap: wrap;
+  gap: 100px;
+  width: 87%;
+  margin-top: 49px;
+}
+/* 
+@keyframes scroll {
+  0% {
+    transform: translateX(90%);
+  }
+  100% {
+    transform: translateX(-90%);
+  }
+} */
+/* clients page ends here */
+/* group sec begins here */
+.group-sec {
+  text-align: center;
+  height: 40vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sec h1 {
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  margin-top: 30px;
+}
+.sec p {
+  margin-top: 20px;
+  font-size: large;
+}
+.box-div {
+  width: 100%;
+  gap: 27px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.membership {
+  width: 350px;
+  height: 300px;
+  background-color: rgb(240, 244, 245);
+  margin-top: 50px;
+  align-content: center;
+  justify-content: center;
+}
+.Clubs {
+  width: 350px;
+  height: 300px;
+  background-color: rgb(240, 244, 245);
+  margin-top: 50px;
+  align-content: center;
+  justify-content: center;
+}
+.box-div p {
+  width: 59%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18px;
+  font-size: smaller;
+}
+.box-div h2 {
+  width: 76%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* group sec ends here */
+/* pixelgrade sec begins here */
+.pixel {
+  display: flex;
+  justify-content: center;
+}
+.pixel p {
+  margin-top: 18px;
+  width: 90%;
+  font-size: 25px;
+}
+.pixel h1 {
+  margin-top: 30%;
+  font-size: 30px;
+  width: 70%;
+}
+.pixel div {
+  margin-top: 10px;
+}
+.but {
+  height: 30px;
+  width: 140px;
+  color: white;
+  background-color: rgba(43, 173, 43);
+  text-align: center;
+  align-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* pixelgrade sec ends here */
+/* online sec begins here */
+.online-sec {
+  display: flex;
+  height: 30vh;
+  background-color: whitesmoke;
+  justify-content: space-evenly;
+  grid-column-gap: 10px;
+  align-items: center;
+}
+
+.write h3 {
+  margin-top: 12px;
+  font-size: larger;
+  width: 60%;
+}
+.traffic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+.te {
+  display: flex;
+}
+.traffic-text {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.pp {
+  margin-top: 29px;
+}
+
+/* online sec ends here  */
+/* <!-- marketing sec begins here --> */
+.marketing {
+  height: 60vh;
+  text-align: center;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+.marketing h1 {
+  font-size: 40px;
+}
+.marketing p {
+  margin-top: 10px;
+  width: 56%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+.imgg {
+  display: flex;
+  justify-content: space-evenly;
+}
+.tf {
+  height: 280px;
+  width: 29%;
+  background-image: url(blog.png);
+  margin-top: 30px;
+  border-radius: 14px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sub {
+  height: 55%;
+  width: 90%;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  margin-top: 230px;
+  margin-right: auto;
+  margin-left: auto;
+  color: grey;
+}
+.sub h3 {
+  padding-top: 27px;
+  font-size: large;
+}
+.sub div {
+  height: 39px;
+  width: 123px;
+  color: white;
+  background-color: rgba(43, 173, 43);
+  text-align: center;
+  align-content: center;
+  border-radius: 7px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  cursor: pointer;
+}
+/* <!-- marketing sec ends here --> */
+/* <!-- footer sec begins here --> */
+.footer {
+  height: 40vh;
+  background-color: rgb(1, 15, 3);
+  color: white;
+}
+.foot {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+}
+.White {
+  margin-top: 50px;
+}
+.footer h1 {
+  font-size: 20px;
+}
+.footer p {
+  margin-top: 18px;
+  font-size: large;
+  color: grey;
+}
+.footer p:hover {
+  margin-top: 18px;
+  font-size: small;
+  color: white;
+}
+.footer-sub {
+  display: flex;
+  justify-content: space-evenly;
+}
+hr {
+  width: 95%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.freedomlast {
+  text-align: center;
+}
+/* <!-- footer sec ends here --> */
+@media (max-width: 834px) {
+
+  .menu{
+    display: none;
+  }
+
+  .bars{
+    display: flex;
+    margin: auto;
+  }
+  .hero-div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+   
+  }
+  .div h1 {
+    font-size: 20px;
+  }
+  .div {
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 100%;
+  }
+  .div p{
+    font-size: 10px;
+  }
+  .client{
+    width: auto;
+  }
+  .client h1{
+    font-size: 20px;
+  }
+
+  .client p {
+font-size: medium;
+  }
+  .logo {
+    width: auto;
+    gap: 5px;
+  }
+  .img img {
+    width: 100%;
+    margin-left: 10;
+  }
+  .group-sec {
+    height: auto;
+    display: grid;
+  }
+  .sec h1 {
+    width: auto;
+  }
+  .membership {
+    width: 48%;
+    height: 280px;
+  }
+  .membership p {
+    width: auto;
+  }
+  .Clubs {
+    width: 200%;
+    height: 200px;
+    margin-bottom: 110px;
+  }
+  .box-div {
+    gap: 10px;
+  }
+  .pixel {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 20%;
+    
+  }
+  .pixel .img img {
+    width: 250px;
+    height: 290px;
+    margin-top: 70px;
+  }
+  .pic h1 {
+    font-size: medium;
+  }
+  .pic p {
+    font-size: small;
+  }
+  .online-sec {
+    display: grid;
+    height: auto;
+    width: 100%;
+  }
+  .write h3 {
+    font-size: large;
+    width: auto;
+    margin-top: 60px;
+  }
+  .write p {
+    font-size: small;
+    width: auto;
+  }
+  .traffic {
+    height: 27vh;
+    width: auto;
+    margin-top: 20%;
+    grid-template-rows: 8%;
+  }
+  .marketing {
+    width: 100%;
+    height: auto;
+    margin-bottom: 14%;
+  }
+  .tf {
+    height: auto;
+    width: auto;
+  }
+  .imgg {
+    display: grid;
+    grid-row-gap: 47px;
+    width: auto;
+  }
+  .footer {
+    height: 100%;
+    width: auto;
+  }
+  .footer-sub {
+    display: grid;
+    justify-content: space-evenly;
+  }
+}
+/* BYE BYE FROM NEXCANT WEBSITE */
